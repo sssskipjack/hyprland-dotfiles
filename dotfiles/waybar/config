@@ -1,0 +1,34 @@
+
+{
+	// load modules
+	"include": "~/.config/waybar/modules.json",
+	
+	// general settings
+	"position": "bottom",
+	"margin-top": 8,
+	"margin-bottom": 0,
+	"layer": "top",
+	"margin-left": 8,
+	"margin-right": 8,    
+	"spacing": 10,
+	"fixed-center": true,
+	"exclusive": true,
+	
+	// modules
+	"modules-left": [
+           "group/hardware"
+           //"bluetooth",
+           //"pulseaudio",
+           //"network",
+	],
+        
+        "modules-center": [
+	    "hyprland/workspaces",
+        ],
+        
+       "modules-right": [
+           "battery", 
+           //"custom/exit",
+           "clock"
+        ]
+}
