@@ -9,11 +9,11 @@
 
 mode=drun
 allow_images=true
-image_size=30
+image_size=0
 prompt= search
 columns=1
-width=480
-height=330
+width=500
+height=300
 no_actions=true
 monitor=DP-1
 location=center
